@@ -1,5 +1,5 @@
 {
-  "name": "dagger-psalm",
+  "name": "psalm",
   "engineVersion": "v0.15.1",
   "sdk": "php"
 }

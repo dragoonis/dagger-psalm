@@ -16,7 +16,7 @@ use function Dagger\dag;
 
 #[DaggerObject]
 #[Doc('Run psalm against your php codebase')]
-class DaggerPsalm
+class Psalm
 {
     // dagger call analyze --php-version=8.4 --source=repo_url#branch --path-to-test=src stdout
     // dagger call analyze --source=https://github.com/dragoonis/Sylius#2.0 --php-version=8.3 --path-to-test=src stdout
