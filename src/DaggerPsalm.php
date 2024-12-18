@@ -21,7 +21,7 @@ class DaggerPsalm
     // dagger call analyze --php-version=8.4 --source=repo_url#branch --path-to-test=src stdout
     // dagger call analyze --source=https://github.com/dragoonis/Sylius#2.0 --php-version=8.3 --path-to-test=src stdout
     #[DaggerFunction('psalm')]
-    public function psalm(
+    public function run(
         string $phpVersion,
         Directory $source,
         string $pathToTest,
